@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Prodesk IT</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="toggle-btn" id="modeToggle" type="button" onclick="toggleDark()">
+        <span id="modeIcon">🌙</span>
+        Dark Mode
+      </button>
+      <button class="hamburger" type="button" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <h1>We Build <strong class="digi">Digital Experiences</strong></h1>
+        <p>Design-led websites, smart campaigns, and growth-focused digital marketing for ambitious brands.</p>
+        <button class="primary-btn" type="button">Get Started</button>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <article class="card">
+          <h3>SEO Strategy</h3>
+          <p>Boost visibility, increase organic traffic, and rank higher with data-driven SEO.</p>
+        </article>
+        <article class="card">
+          <h3>Web Development</h3>
+          <p>Create responsive, modern websites that work beautifully on desktop and mobile.</p>
+        </article>
+        <article class="card">
+          <h3>Marketing</h3>
+          <p>Launch campaigns that convert and build lasting brand awareness across channels.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>© 2026 Prodesk IT. All rights reserved.</p>
+      
+      <div class="social-links">
+        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
